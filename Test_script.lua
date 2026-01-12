@@ -90,7 +90,7 @@ local crossEnabled = false -- mira independente
 local cross = Instance.new("ImageLabel", gui)
 cross.Size = UDim2.fromOffset(40,40)
 cross.AnchorPoint = Vector2.new(0.5,0.5) -- Mantenha como 0.5, 0.5 para centralizar o centro da imagem
-cross.Position = UDim2.fromScale(0.360,0.115) -- Posição central da tela
+cross.Position = UDim2.fromScale(0.5,0.5) -- Posição central da tela
 cross.Image = "rbxassetid://17431027" -- <== NOVO ID DA IMAGEM
 cross.BackgroundTransparency = 1
 cross.Visible = false
