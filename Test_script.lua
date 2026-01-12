@@ -89,11 +89,14 @@ local crossEnabled = false -- mira independente
 --// MIRA CENTRAL (IMAGEM FIXA)
 local cross = Instance.new("ImageLabel", gui)
 cross.Size = UDim2.fromOffset(40,40)
-cross.AnchorPoint = Vector2.new(0.5,0.5) -- <== AGORA PERFEITAMENTE CENTRALIZADO
-cross.Position = UDim2.fromScale(0.5,0.5)
-cross.Image = "rbxthumb://type=Asset&id=124687589319268&w=420&h=420"
+cross.AnchorPoint = Vector2.new(0.5,0.5) -- Mantenha como 0.5, 0.5 para centralizar o centro da imagem
+cross.Position = UDim2.fromScale(0.5,0.5) -- Posição central da tela
+cross.Image = "rbxassetid://17431027" -- <== NOVO ID DA IMAGEM
 cross.BackgroundTransparency = 1
 cross.Visible = false
+
+-- ... (o resto do seu script) ...
+
 
 
 -- Toggle da mira via botão próprio
